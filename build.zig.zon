@@ -1,0 +1,16 @@
+.{
+    .name = .lzo,
+    .version = "2.10.0",
+    .dependencies = .{
+        .upstream = .{
+            .url = "https://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz",
+            .hash = "N-V-__8AAETALgBOxXv2_7I0WzAH_AVsgCjvYi2frxAlFSYd",
+        },
+    },
+    .minimum_zig_version = "0.17.1",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+    .fingerprint = 0xb65106e35ac0a868,
+}
